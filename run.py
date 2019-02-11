@@ -414,3 +414,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    access_token = os.environ["Bot_Token"] 
+client.run(access_token)
